@@ -93,6 +93,24 @@ header{
     margin-right: 13vmin;
 }
 
+#nawyk2-span{
+    color: rgb(63, 154, 184);
+    line-height: 4vmin;
+    margin-right: 17vmin;
+}
+
+#nawyk3-span{
+    color: rgb(63, 154, 184);
+    line-height: 4vmin;
+    margin-right: 1vmin;
+}
+
+#nawyk4-span{
+    color: rgb(63, 154, 184);
+    line-height: 4vmin;
+    margin-right: -2vmin;
+}
+
 #nawyk1{
     display: flex;
     flex-flow: row;
@@ -103,6 +121,21 @@ button{
     border-radius: 1rem;
     background-color: gainsboro;
     margin-right: 5vmin;
+}
+
+.button2{
+    margin-right: 0;
+    margin-left: 4vmin;
+}
+
+.button3{
+    margin-right: 0;
+    margin-left: 4vmin;
+}
+
+.button4{
+    margin-right: 0;
+    margin-left: 4vmin;
 }
 /******************************************
 /* LAYOUT
