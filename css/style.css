@@ -96,19 +96,19 @@ header{
 #nawyk2-span{
     color: rgb(63, 154, 184);
     line-height: 4vmin;
-    margin-right: 17vmin;
+    margin-right: 18vmin;
 }
 
 #nawyk3-span{
     color: rgb(63, 154, 184);
     line-height: 4vmin;
-    margin-right: 1vmin;
+    margin-right: 3vmin;
 }
 
 #nawyk4-span{
     color: rgb(63, 154, 184);
     line-height: 4vmin;
-    margin-right: -2vmin;
+    margin-right: -1vmin;
 }
 
 #nawyk1, #nawyk2, #nawyk3, #nawyk4{
@@ -125,17 +125,17 @@ button{
 
 .button2{
     margin-right: 0;
-    margin-left: 4vmin;
+    margin-left: 5vmin;
 }
 
 .button3{
     margin-right: 0;
-    margin-left: 4vmin;
+    margin-left: 5vmin;
 }
 
 .button4{
     margin-right: 0;
-    margin-left: 4vmin;
+    margin-left: 5vmin;
 }
 /******************************************
 /* LAYOUT
