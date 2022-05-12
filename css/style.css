@@ -111,7 +111,7 @@ header{
     margin-right: -2vmin;
 }
 
-#nawyk1{
+#nawyk1, #nawyk2, #nawyk3, #nawyk4{
     display: flex;
     flex-flow: row;
     align-items: center;
