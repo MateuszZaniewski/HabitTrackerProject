@@ -19,7 +19,7 @@
 
 html{
     font-size: 62,5%;
-    background-color: rgb(73, 72, 72);
+    background-color: rgb(206, 202, 202);
 }
 body{
     margin: 0;
@@ -47,19 +47,19 @@ header{
 }
 
 #header-plus{
+    margin-right: 3vmin;
     margin-left: 55vmin;
 }
 
 #header-settings{
     margin-right: 2vmin;
-    margin-left: 8vmin;
+    margin-left: 3vmin;
 
 }
 
 #calendar{
     height: 13vmin;
-    border: 0.1rem solid white;
-    margin-left: 50%;
+    margin-left: 48%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -71,12 +71,12 @@ header{
     line-height: 4vmin;
     font-size: 0.7rem;
     width: 12%;
-    color: white;
+    color: rgb(73, 72, 72);
+    font-weight: bold;
 }
 
 #main-nawyki{
     height: 40vmin;
-    border: 0.1rem solid orange;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -84,14 +84,13 @@ header{
 
 .nawyk{
     height: 10vmin;
-    border: 0.1rem solid mediumspringgreen;
     width: 100%
 }
 
 #nawyk1-span{
-    color: rgb(119, 202, 230);
+    color: rgb(63, 154, 184);
     line-height: 4vmin;
-    margin-right: 20vmin;
+    margin-right: 13vmin;
 }
 
 #nawyk1{
@@ -113,6 +112,10 @@ button{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+button:focus{
+    background-color: green;
+}
 
 /******************************************
 /* IMG RESCALING
