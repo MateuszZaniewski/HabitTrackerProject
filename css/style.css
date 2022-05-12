@@ -21,6 +21,10 @@ html{
     font-size: 62,5%;
     background-color: rgb(73, 72, 72);
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 /******************************************
 /* BASE STYLES
@@ -28,7 +32,6 @@ html{
 
 header{
     height: 15vmin;
-    border: 0.1rem solid black;
     line-height: 10vmin;
     display: flex;
     flex-flow: row nowrap;
