@@ -6,61 +6,120 @@
     	<meta name="keywords" content="one, two, three">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- external CSS link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Habbit Tracker PRO</title>
+    <title>Burger Shop</title>
 
 </head>
     <link rel="shortcut icon" href="assets/Habbit.jpg">
 <body>
+    <nav>
+         <ul>
+             <li>
+                 <a href="http://localhost:52330/index.html"><img id="logo" src="assets/logo.jpg" alt=""></a>
+             </li>
+             <li>
+                 <a href="#">Oferta</a>
+             </li>
+             <li>
+                 <a href="#">Dowozy</a>
+             </li>
+             <li>
+                 <a href="#rezerwacjaBTN">Rezerwacje</a>
+             </li>
+             <li>
+                 <a href="#rezerwujTeraz">Kontakt</a>
+             </li>
+             <li class="highlightTheme">
+                 <a href="#">Zamów Online</a>
+             </li>
+             <li>
+                 <a href=""><img class="socialMediaIcons" src="assets/facebook.png" alt=""></a>
+             </li>
+             <li>
+                <a href=""><img class="socialMediaIcons" src="assets/instagram.png" alt=""></a>
+            </li>
+         </ul>
+    </nav>
 
-    <header>
-        <span class="tittle-nawyki"></span>
-        <img class="header-icons" id="header-plus" src="assets/icon-plus.png" alt="ikonka plusa do dodawania nawyków">
-        <img class="header-icons" id="header-settings" src="assets/icon-dots.png" alt="3 kółeczka do opcji">
-    </header>
-
-    <section id="calendar">
-        <span class="calendar-date" id="date1"></span>
-        <span class="calendar-date" id="date2"></span>
-        <span class="calendar-date" id="date3"></span>
-        <span class="calendar-date" id="date4"></span>
+    <section class="sekcjaLogo">
+        <img id="mainIMG" src="assets/mainFoto.png" alt="">
     </section>
 
-    <section id="main-nawyki">
-        <div class="nawyk" id="nawyk1">
-            <img id="main-nawyki-icon" src="assets/icon-circle.png" alt="">
-                <span id="nawyk1-span"></span>
-                <button class="button1">+</button>
-                <button class="button1">+</button>
-                <button class="button1">+</button>
-                <button class="button1">+</button>
-        </div>
-        <div class="nawyk" id="nawyk2">
-            <img id="main-nawyki-icon" src="assets/icon-circle.png" alt="">
-                <span id="nawyk2-span"></span>
-                <button class="button2">+</button>
-                <button class="button2">+</button>
-                <button class="button2">+</button>
-                <button class="button2">+</button>
-        </div>
-        <div class="nawyk" id="nawyk3">
-            <img id="main-nawyki-icon" src="assets/icon-circle.png" alt="">
-                <span id="nawyk3-span"></span>
-                <button class="button3">+</button>
-                <button class="button3">+</button>
-                <button class="button3">+</button>
-                <button class="button3">+</button>
-        </div>
-        <div class="nawyk" id="nawyk4">
-            <img id="main-nawyki-icon" src="assets/icon-circle.png" alt="">
-                <span id="nawyk4-span"></span>
-                <button class="button4">+</button>
-                <button class="button4">+</button>
-                <button class="button4">+</button>
-                <button class="button4">+</button>
-        </div>
+    <section class="sekcja-first">
+        <h1 class="tittle">Świat burgerów zaczyna się od Ciebie!</h1>
     </section>
+    <section class="opisIobraz">
+        <p class="opis">Jesteśmy jedną z pierwszych restauracji w Białymstoku, które serwują burgery ze świeżego, codziennie dostarczanego mięsa. Działamy już od 2012 roku! W ofercie posiadamy aż 26 różnych burgerów oraz liczne inne dania, takie jak burrito, tortilla, kanapki czy żeberka. Każdy znajdzie coś dla siebie. Ugościmy Was przy stolikach, które mieszczą od 2 do 10 osób. W naszym lokalu czeka Państwa niesamowita atmosfera amerykańskiej restauracji fast food.</p>
+        <img id="tableIMG" src="assets/table.jpg" alt="">
+    </section>
+
+    <h2>Zadowolenie Klientów to nasz priorytet</h2>
+    
+    <section class="stats">
+        <section class="statsPodklasa">
+            <img class="statsIMG" src="assets/calendar.png" alt="">
+            <span class="numbersResize calendar">10</span>
+            <span class="statsSpan">Lat na rynku</span>
+        </section>
+        <section class="statsPodklasa">
+            <img class="statsIMG" src="assets/cutlery.png" alt="">
+            <span class="numbersResize cutlery"">1,500,000</span>
+            <span class="statsSpan">Sprzedanych Burgerów</span>
+        </section>
+        <section class="statsPodklasa">
+            <img class="statsIMG" src="assets/oak.png" alt="">
+            <span class="numbersResize oak">70</span>
+            <span id="rezerwacjaBTN" class="statsSpan">Imprez w plenerze</span>
+        </section>
+        <section class="statsPodklasa">
+            <img class="statsIMG" src="assets/cart.png" alt="">
+            <span class="cart statsSpan">Codziennie świeże produkty</span>
+        </section>
+    </section>
+    
+    <h3>Zarezerwój stolik</h3>
+    <section id="rezerwacja">
+        
+        <label for="start">Wybierz datę:</label>
+        <input type="date" id="start" name="trip-start" placeholder="dd-mm-yyyy"
+       min="2022-05-20" max="2030-05-31">
+
+        <label for="godzina">Wybierz godzinę:</label>
+        <input type="time" id="time" name="trip-godzina" placeholder="12:00"
+        min="08:00" max="22:00" step="00:15">
+
+        <label for="goscie">Proszę podaj liczbę osób:</label>
+        <input type="number" id="liczbaGosci" name="liczba-gosci" placeholder="max. 8"
+        min="1" max="8">
+
+        <button type="button" onclick="alert('Dziękujemy za rezerwacje')" id="rezerwujTeraz">Rezerwuj teraz</button>
+    </section>
+    
+    <h4>Kontakt</h4>
+    <section id="kontakt">
+        <aside class="godzinyOtwarcia">
+        <p id="adres">Ulica Wesoła 16, 15-307 Białystok</p>
+        <p id="godzinyOtwarcia">Godziny otwarcia: </p>
+        <p class="godzinki">Poniedziałek - Czwartek: 10:00 - 22:00</p>
+        <p class="godzinki">Piątek: 10:00 - 23:00</p>
+        <p class="godzinki">Sobota: 12:00 - 24:00</p>
+        <p class="godzinki">Niedziela: 12:00 - 22:00</p>
+        <p>Tel: 519-695-2260 @ kontakt@mily.bar</p>
+    </aside>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6771.822900158141!2d23.150508457094848!3d53.12453827260077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffbff45519ff7%3A0xeab8078260431add!2sMi%C5%82y%20Burgery!5e0!3m2!1spl!2spl!4v1652778656223!5m2!1spl!2spl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; Burger Miły Białystok 2012 - 2022</p>
+        <p>Pobierz naszą aplikacje na telefon i ciesz sie rabatami</p>
+        <a href="#"><img class="storeIMG" src="assets/playstore.png" alt=""></a>
+        <a href="#"><img class="storeIMG" src="assets/applestore.png" alt=""></a>
+        
+    </footer>
 
 
     <script type="text/javascript" src="js/main.js"></script>
