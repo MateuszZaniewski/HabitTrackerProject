@@ -294,3 +294,44 @@ nav > ul > li > a > img:hover{
 #rezerwujTeraz:hover{
     background-color: olivedrab;
 }
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media screen and (max-width: 360px) {
+    html {
+        font-size: 62.5%;
+    }
+
+
+    body {
+        color: lightskyblue;
+    }
+
+    #logo{
+        height: 50px;
+        width: 50px;
+    }
+
+    nav{
+        height: 60px;
+        width: 100%;
+        box-shadow: 4px 3px 10px 5px black;
+        display: flex;
+        align-items: center;
+        background-color: rgb(34, 34, 34);
+        padding-left: 10px;
+        padding-right: 10px;
+        position: fixed;
+        top: 0;
+    }
+
+    .socialMediaIcons{
+        display: none;
+    }
+
+    .highlightTheme{
+        height: 60px;
+    }
+}
