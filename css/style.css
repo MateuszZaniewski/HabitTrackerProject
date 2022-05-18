@@ -318,7 +318,7 @@ nav > ul > li > a > img:hover{
         align-items: center;
         background-color: rgb(34, 34, 34);
         padding-left: 1px;
-        padding-right: 10px;
+        padding-right: 4px;
         position: fixed;
         top: 0;
     }
