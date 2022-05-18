@@ -305,11 +305,6 @@ nav > ul > li > a > img:hover{
         font-size: 62.5%;
     }
 
-
-    body {
-        
-    }
-
     #logo{
         height: 50px;
         width: 50px;
@@ -328,7 +323,7 @@ nav > ul > li > a > img:hover{
         top: 0;
     }
     nav > ul > li > a{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .socialMediaIcons{
