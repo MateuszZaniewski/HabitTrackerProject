@@ -48,6 +48,7 @@ nav{
     padding-right: 120px;
     position: fixed;
     top: 0;
+    z-index: 10;
 }
 
 nav > ul{
@@ -89,6 +90,7 @@ h2, h4, h3{
     margin-top: 5%;
     text-shadow: 4px 3px black;
 }
+
 
 
 /******************************************
@@ -296,6 +298,32 @@ nav > ul > li > a > img:hover{
     background-color: olivedrab;
 }
 
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 3;
+    font-size: 1.4rem;
+    border: 0.1rem solid black;
+    outline: none;
+    background-color: olivedrab;
+    color: rgb(247, 244, 244);
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+
 /******************************************
 /* MEDIA QUERIES
 /*******************************************/
@@ -338,6 +366,7 @@ nav > ul > li > a > img:hover{
         width: 100%;
         height: 400px;
         box-shadow: 4px 3px 10px 5px black;
+        animation: wysuwanieObrazka 2s linear 0 1 normal none;
     }
 
     .opisIobraz{
@@ -351,7 +380,7 @@ nav > ul > li > a > img:hover{
         color: rgb(247, 244, 244);
         margin: 5% 10% 2% 10%;
         line-height: 1.5rem;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         text-align: center;
     }
 
